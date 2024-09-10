@@ -20,6 +20,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  animation: spin 30s linear infinite;
 }
 
 .flower__grass__leaf {
@@ -92,8 +93,4 @@ body {
   100% {
     transform: rotate(360deg);
   }
-}
-
-.flower {
-  animation: spin 30s linear infinite;
 }
